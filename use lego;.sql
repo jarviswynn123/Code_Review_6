@@ -43,4 +43,4 @@ SELECT *
 FROM parts
 JOIN part_categories
 ON parts.part_cat_id = part_categories.id
-WHERE parts.name LIKE "%Werewolf%"
+WHERE parts.name LIKE "%Werewolf%" 
