@@ -18,4 +18,4 @@ Show the average number of parts for sets that came out since the year 2000.
 Using GROUP BY, show the average number of parts for each theme_id in sets.
 
 Joins
-Using a free-form join (where the JOIN type isn't specified, equivalent to an inner join), join the parts and part_categories tables. Filter for values where the part_categories id matches the parts part_cat_id, and where the name of the part contains the word 'Werewolf'.
+Using a free-form join (where the JOIN type isn't specified, equivalent to an inner join), join the parts and part_categories tables. Filter for values where the part_categories id matches the parts part_cat_id, and where the name of the part contains the word 'Werewolf'. 
