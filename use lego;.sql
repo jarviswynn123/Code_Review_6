@@ -38,7 +38,7 @@ SELECT *, AVG(num_parts) AS avg_num_parts FROM sets WHERE year >= 2000
 --average number of parts for each theme_id in sets
 SELECT theme_id, AVG(num_parts) AS avg_num_parts From sets GROUP BY theme_id
 
---join the parts and part_categories tables. Filter for values where the part_categories id matches the parts part_cat_id, and where the name of the part contains the word 'Werewolf'
+--join the parts and part_categories tables. Filter for values where the part_categories id matches the parts part_cat_id, and where the name of the part contains the word 'Werewolf' 
 SELECT *
 FROM parts
 JOIN part_categories
